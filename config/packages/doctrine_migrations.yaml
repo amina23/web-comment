@@ -1,0 +1,4 @@
+doctrine_migrations:
+    migrations_paths:
+        DoctrineMigrations: '%kernel.project_dir%/src/Infrastructure/Persistence/Migrations'
+    custom_template: '%kernel.project_dir%/src/Infrastructure/Persistence/Migrations/Template.php.txt'

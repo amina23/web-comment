@@ -1,0 +1,7 @@
+controllers:
+    resource: ../src/Infrastructure/Controller/
+    type: annotation
+api-controllers:
+    resource: ../src/Infrastructure/Api/
+    type: annotation
+    prefix: api

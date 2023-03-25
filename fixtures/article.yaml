@@ -1,0 +1,6 @@
+App\Core\Domain\Article:
+    article_{1..4}:
+        __construct:
+            id:  <(App\Lib\Uuid::new())>
+            title: Article_<current()>
+            text: Description_<current()>
